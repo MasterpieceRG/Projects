@@ -4,7 +4,7 @@ class Library(serial:Int, title:String,author:String,pYear:Int) {
     var book3 = Book(3,"Safe Heaven","Nicholas",2010)
     var book4 = Book(4,"Poor Dad Reach Dad","Robert kiyosaki",1997)
     var book5 = Book(5,"Natto Totto","Kolostantin stanoslavasky",1938)
-    var book6 = Book(6,title, author, pYear)
+    var book6 = Book(serial,title, author, pYear)
 
 
     fun showLibraryBooks() {
